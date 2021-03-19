@@ -1,7 +1,8 @@
 import styled from "styled-components";
-
+import bgImgage from "../../assets/bgOndulado.svg"
 export const Container = styled.header`
-  background: var(--blue);
+  background: url(${bgImgage}) no-repeat ;
+  background-size: cover;
 `;
 
 export const Content = styled.div`
