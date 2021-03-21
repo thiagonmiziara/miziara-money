@@ -46,7 +46,7 @@
 
 ## :dart: Sobre ##
 
-Sobre o seu projeto
+Projeto desenvolvido o Ignite da Rocketset, ultilizamos context Api , criamos um Hook customizado e para estilizar utilizamos styled components.
 
 ## :sparkles: Funcionalidades ##
 
@@ -60,7 +60,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Miraje.Js](https://expo.io/)
 - [React](https://pt-br.reactjs.org/)
 - [Styled Components](https://reactnative.dev/)
+- [Polished](https://github.com/)
 - [TypeScript](https://www.typescriptlang.org/)
+
 
 ## :white_check_mark: Pré requisitos ##
 
