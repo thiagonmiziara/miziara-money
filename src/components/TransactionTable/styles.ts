@@ -19,12 +19,12 @@ export const Container = styled.div`
         td{ 
             padding: 1rem 2rem;
             border: 0;
-            background: var(--shape);
-            color: var(--text-body);
+            background: ${({theme})=> theme.body};
+            color: ${({theme})=> theme.textTitle};
             border-radius: 0.25rem;
 
             &:first-child{
-                color: var(--text-title);
+                color: ${({theme})=> theme.textTitle};
             }
 
             &.deposit {
