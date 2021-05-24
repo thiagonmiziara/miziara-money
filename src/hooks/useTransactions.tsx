@@ -47,7 +47,7 @@ export function TransactionsProvider({ children }: TransactionProviderProps) {
   }, []);
 
   async function createTransaction(transactionInput: TransactionInput) {
-    const resposnse = await api.post("/transactions", {
+    const resposnse = await api.post("https://miziara-money.vercel.app/api/transactions", {
       ...transactionInput,
       createdAt: new Date(),
     });
