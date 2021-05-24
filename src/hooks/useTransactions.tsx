@@ -42,7 +42,7 @@ export function TransactionsProvider({ children }: TransactionProviderProps) {
 
   useEffect(() => {
     api
-      .get("http://localhost:3000/api/transactions")
+      .get("https://miziara-money.vercel.app/api/transactions")
       .then((response) => setTransactions(response.data.transactions));
   }, []);
 
